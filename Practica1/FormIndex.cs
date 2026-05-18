@@ -19,7 +19,7 @@ namespace Practica1
             string nombre = txt_buscar.Text.Trim();
             if (string.IsNullOrWhiteSpace(nombre))
             {
-                //MessageBox.Show("El campo de búsqueda no puede estar vacío.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                //MessageBox.Show("El campo de bï¿½squeda no puede estar vacï¿½o.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 listaEstudiantes.listar(listViewEstudiantes);
                 return;
             }
